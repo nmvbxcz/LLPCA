@@ -6,8 +6,6 @@ function [] = LLPCA(datasetName,number,d,k)
     class_num = length(unique(gt));
     [m,n,c] = size(img);  
     I = img_pca(img,1);
-    result_name = 'gause_label_time.txt';
-    fid = fopen(result_name,'a+');
     I = padarray(I,[d,d],'replicate');
     resultI = zeros(m,n);  
     width = 2*d+1;  
@@ -131,8 +129,6 @@ function [] = LLPCA(datasetName,number,d,k)
                 [~,P] = max(label,[],2);
                 predict = P-1;
                 predict = reshape(predict,m,n);
-                pred_img = plotClassification(predict,  color_map);
-                imshow(pred_img);
 
                 if(min(predict(:)) > 0)
                     [acc,~,~,~] = confusion(gt(index_test),predict(index_test))
