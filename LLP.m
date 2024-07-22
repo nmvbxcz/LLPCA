@@ -1,7 +1,5 @@
 function [] = LLP(datasetName,number,d)  
-    addpath(genpath('./libsvm-3.24'));
     addpath('./common');
-    addpath('./filtering');
     [img,gt] = get_data(datasetName);
     img = img./max(img(:));
     class_num = length(unique(gt));
