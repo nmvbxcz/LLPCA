@@ -1,5 +1,4 @@
 function [] = LLPCA(datasetName,number,d,k)  
-    addpath(genpath('./libsvm-3.24'));
     addpath('./common');
     [img,gt] = get_data(datasetName);
     img = img./max(img(:));
