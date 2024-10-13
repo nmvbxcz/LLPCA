@@ -14,7 +14,8 @@ For example, when DataSet Indianpines takes 5-30 training sample points for each
 - LLP("Indianpines",[5,10,15,20,25,30],2);
 - LLPCA("Indianpines",[5,10,15,20,25,30],1,10);
 
-![Image text](https://github.com/nmvbxcz/LLPCA/blob/main/CA.png）
+![Alt text](https://github.com/nmvbxcz/LLPCA/blob/main/CA.png?raw=true)
+
 
 ![Image text](https://github.com/nmvbxcz/LLPCA/blob/main/LLPCA_progress.png）
 
