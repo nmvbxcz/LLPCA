@@ -13,3 +13,17 @@ The data sets and  number of training samples can be selected within the code.
 For example, when DataSet Indianpines takes 5-30 training sample points for each class, the method of calling LLP and LLPCA algorithm for "Indianpines" is as follows:
 - LLP("Indianpines",[5,10,15,20,25,30],2);
 - LLPCA("Indianpines",[5,10,15,20,25,30],1,10);
+
+![Image text](https://github.com/nmvbxcz/LLPCA/blob/main/CA.png）
+
+![Image text](https://github.com/nmvbxcz/LLPCA/blob/main/LLPCA_progress.png）
+
+![Image text](https://github.com/nmvbxcz/LLPCA/blob/main/LLP.png）
+
+![Image text](https://github.com/nmvbxcz/LLPCA/blob/main/CA.png）
+
+![Image text](https://github.com/nmvbxcz/LLPCA/blob/main/indian.png）
+
+![Image text](https://github.com/nmvbxcz/LLPCA/blob/main/paviau.png）
+
+![Image text](https://github.com/nmvbxcz/LLPCA/blob/main/honghu.png）
