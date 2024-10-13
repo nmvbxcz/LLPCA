@@ -14,6 +14,11 @@ For example, when DataSet Indianpines takes 5-30 training sample points for each
 - LLP("Indianpines",[5,10,15,20,25,30],2);
 - LLPCA("Indianpines",[5,10,15,20,25,30],1,10);
 
+## Algorithm:
+Pseudocode: The following figure illustrates the Pseudocode of the LLPCA.
+
+![Alt text](https://github.com/nmvbxcz/LLPCA/blob/main/LLPCA_Alg.png?raw=true)
+
 ## Images:
 LLPCA progress: The following figure illustrates the complete algorithmic process of LLPCA.
 
