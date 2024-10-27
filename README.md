@@ -35,17 +35,18 @@ Class Attention: The following figure presents the flowchart of CA generation, w
 ![Alt text](https://github.com/nmvbxcz/LLPCA/blob/main/CA.png?raw=true)
 
 The following figures present the classification results of various models on the three datasets, where 30 labeled samples are randomly selected for training, and the rest are used for testing.
-Indian Pines:
+
+**Indian Pines:**
 
 ![Alt text](https://github.com/nmvbxcz/LLPCA/blob/main/indian.png?raw=true)
 
 
-PaviaU:
+**PaviaU:**
 
 ![Alt text](https://github.com/nmvbxcz/LLPCA/blob/main/paviau.png?raw=true)
 
 
-HongHu:
+**HongHu:**
 
 ![Alt text](https://github.com/nmvbxcz/LLPCA/blob/main/honghu.png?raw=true)
 
